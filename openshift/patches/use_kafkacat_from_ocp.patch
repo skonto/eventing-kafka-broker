@@ -1,0 +1,13 @@
+diff --git a/vendor/knative.dev/eventing-kafka/test/e2e/helpers/kafka_helper.go b/vendor/knative.dev/eventing-kafka/test/e2e/helpers/kafka_helper.go
+index cf93ac05..2bd7519e 100644
+--- a/vendor/knative.dev/eventing-kafka/test/e2e/helpers/kafka_helper.go
++++ b/vendor/knative.dev/eventing-kafka/test/e2e/helpers/kafka_helper.go
+@@ -52,7 +52,7 @@ const (
+ 	strimziUserResource  = "kafkausers"
+ 	interval             = 3 * time.Second
+ 	timeout              = 4 * time.Minute
+-	kafkaCatImage        = "docker.io/edenhill/kafkacat:1.6.0"
++	kafkaCatImage        = "quay.io/openshift-knative/kafkacat:1.6.0"
+ )
+ 
+ var (
